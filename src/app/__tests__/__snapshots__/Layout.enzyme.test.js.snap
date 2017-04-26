@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> should render a deep snapshot with its children 1`] = `
+<Layout>
+  <div>
+    <MyHeader>
+      <h1>
+        Header
+      </h1>
+    </MyHeader>
+    <MyButton>
+      <div>
+        <button
+          className="btn"
+          id="myButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "lightblue",
+              "fontSize": "25px",
+            }
+          }
+        >
+          Open
+        </button>
+      </div>
+    </MyButton>
+  </div>
+</Layout>
+`;
+
+exports[`<Layout /> should render a shallow snapshot with no children 1`] = `
+<div>
+  <MyHeader />
+  <MyButton />
+</div>
+`;

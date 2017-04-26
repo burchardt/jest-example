@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> should render the whole layout 1`] = `
+<div>
+  <h1>
+    Header
+  </h1>
+  <div>
+    <button
+      className="btn"
+      id="myButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightblue",
+          "fontSize": "25px",
+        }
+      }
+    >
+      Open
+    </button>
+  </div>
+</div>
+`;

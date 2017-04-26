@@ -1,0 +1,17 @@
+#####################################################
+#                                                   #
+#                     .gitignore                    #
+#                                                   #
+#####################################################
+
+# Intellij
+.idea/
+
+# Node.js modules
+node_modules
+
+# Tests coverage node
+coverage
+
+# Build product
+public/bundle.js

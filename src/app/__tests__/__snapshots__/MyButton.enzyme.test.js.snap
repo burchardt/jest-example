@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyButton /> getButtonText should be called 1`] = `
+<div>
+  <button
+    className="btn"
+    id="myButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+        "fontSize": "25px",
+      }
+    }
+  >
+    BUTTON
+  </button>
+</div>
+`;
+
+exports[`<MyButton /> should render a button with a classname 1`] = `
+<div>
+  <button
+    className="btn"
+    id="myButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+        "fontSize": "25px",
+      }
+    }
+  >
+    Open
+  </button>
+</div>
+`;
+
+exports[`<MyButton /> toggleState should be called on click 1`] = `
+<div>
+  <button
+    className="btn"
+    id="myButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+        "fontSize": "25px",
+      }
+    }
+  >
+    Close
+  </button>
+</div>
+`;
