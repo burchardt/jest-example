@@ -1,6 +1,7 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
 
 import Layout from './app/Layout';
 
-render(<Layout />, document.getElementById('root'));
+const app = document.getElementById('root')
+ReactDOM.render(<Layout />, app);
