@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import { MyButton } from '../MyButton';
+import MyButton from '../MyButton';
 
 describe('<Button />', () => {
     it('should render a button with a classname', () => {

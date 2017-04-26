@@ -1,6 +1,6 @@
 import React from "react";
 
-export class MyButton extends React.Component {
+export default class MyButton extends React.Component {
     constructor(props) {
         super(props);
         this.state = {open: true}

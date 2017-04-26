@@ -3,7 +3,9 @@
 exports[`<Layout /> should render a deep snapshot with its children 1`] = `
 <Layout>
   <div>
-    <MyHeader>
+    <MyHeader
+      header="Header"
+    >
       <h1>
         Header
       </h1>
@@ -31,7 +33,9 @@ exports[`<Layout /> should render a deep snapshot with its children 1`] = `
 
 exports[`<Layout /> should render a shallow snapshot with no children 1`] = `
 <div>
-  <MyHeader />
+  <MyHeader
+    header="Header"
+  />
   <MyButton />
 </div>
 `;
