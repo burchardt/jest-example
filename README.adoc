@@ -1,0 +1,83 @@
+= Simple React Jest/Enzyme example
+:toc:
+
+== Overview
+
+This project is a very simple example of an react application along with jest/enzyme tests.
+
+== Development
+
+=== Technology/Software used
+
+* Node.js (v6.10.0)
+* npm  (v3.10.10)
+* JavaScript (ES6?)
+* React.js
+* Jasmine
+* Jest
+* Enzyme
+
+=== Start server on localhost
+
+. Run server
++
+----
+npm start
+----
+
+. Page will be opened automatically in the browser: `localhost:3000`
+
+
+== Building
+
+=== Assumptions
+
+*Required software:*
+
+* node.js with npm
+
+*Proxy configuration*
+
+Make sure that npm has configured proxy:
+
+----
+npm config list|grep proxy
+proxy = "http://proxy.lbs.alcatel-lucent.com:8000/"
+----
+
+Proxy is set in `.npmrc` file in Front-End root directory. If you call gradle/npm from other directory it can be not visible.
+To set proxy call:
+
+----
+npm config set proxy http://proxy.lbs.alcatel-lucent.com:8000/
+----
+
+=== Building without gradle
+
+. Install package dependencies:
++
+----
+npm install
+----
+. Build the react application
++
+----
+webpack
+----
+. Run tests
+* run all tests
++
+----
+npm test
+----
+* run tests in interactive mode
++
+----
+npm run test:watch
+----
+* generate test coverage report
++
+----
+npm run test:coverage
+----
+
