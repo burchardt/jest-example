@@ -13,9 +13,11 @@ describe('add()', () => {
     });
 
     it ('add string and number', () => {
+        const result = add('Counter=', 5);        
         expect(add).not.toThrow();
         expect(result).toBeDefined();
         expect(result).not.toBeNull();
+        expect(result).toEqual('Counter=5');
         expect(typeof result).toEqual('string');
     });
 });
